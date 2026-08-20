@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tiago_dual_gazebo</name>
+  <version>4.13.0</version>
+  <description>The tiago_dual_gazebo package</description>
+  <author email="david.terkuile@pal-robotics.com">David ter Kuile</author>
+  <maintainer email="david.terkuile@pal-robotics.com">David ter Kuile</maintainer>
+  <license>Apache License 2.0</license>
+
+  <url type="website">https://github.com/pal-robotics/tiago_dual_simulation</url>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <exec_depend>tiago_gazebo</exec_depend>
+  <exec_depend>tiago_dual_bringup</exec_depend>
+  <exec_depend>tiago_dual_description</exec_depend>
+  <exec_depend>tiago_dual_moveit_config</exec_depend>
+  <exec_depend>tiago_dual_2dnav</exec_depend>
+  <exec_depend>tiago_dual_laser_sensors</exec_depend>
+  <exec_depend>tiago_dual_rgbd_sensors</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+  <exec_depend>gz_ros2_control</exec_depend>
+  <exec_depend>gz-sensors6</exec_depend>
+  <exec_depend>pal_gazebo_worlds</exec_depend>
+  <exec_depend>pal_gazebo_plugins</exec_depend>
+  <exec_depend>pal_maps</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_pal</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>play_motion2_msgs</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">robot_info_publisher</exec_depend>
+  <exec_depend>pal_urdf_utils</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>launch_testing_ament_cmake</test_depend>
+  <test_depend>play_motion2_msgs</test_depend>
+  <test_depend>rclcpp</test_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <test_depend>sensor_msgs</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

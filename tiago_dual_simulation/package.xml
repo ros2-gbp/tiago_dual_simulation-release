@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tiago_dual_simulation</name>
+  <version>4.13.0</version>
+  <description>The tiago_dual_simulation package</description>
+  <author email="david.terkuile@pal-robotics.com">David ter Kuile</author>
+  <maintainer email="david.terkuile@pal-robotics.com">David ter Kuile</maintainer>
+  <license>Apache License 2.0</license>
+
+  <url type="website">https://github.com/pal-robotics/tiago_dual_simulation</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>tiago_dual_gazebo</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
