@@ -1,0 +1,12 @@
+Source: ros-humble-tiago-dual-gazebo
+Section: misc
+Priority: optional
+Maintainer: "David ter Kuile" <david.terkuile@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-play-motion2-msgs <!nocheck>, ros-humble-rclcpp <!nocheck>, ros-humble-sensor-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: https://github.com/pal-robotics/tiago_dual_simulation
+Standards-Version: 3.9.2
+
+Package: ros-humble-tiago-dual-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgz-sensors6-dev, ros-humble-gazebo-plugins, ros-humble-gazebo-ros, ros-humble-gazebo-ros2-control, ros-humble-gz-ros2-control, ros-humble-launch, ros-humble-launch-pal, ros-humble-launch-ros, ros-humble-pal-gazebo-plugins, ros-humble-pal-gazebo-worlds, ros-humble-pal-maps, ros-humble-pal-urdf-utils, ros-humble-play-motion2-msgs, ros-humble-ros-gz-bridge, ros-humble-tiago-dual-2dnav, ros-humble-tiago-dual-bringup, ros-humble-tiago-dual-description, ros-humble-tiago-dual-laser-sensors, ros-humble-tiago-dual-moveit-config, ros-humble-tiago-dual-rgbd-sensors, ros-humble-tiago-gazebo, ros-humble-ros-workspace
+Description: The tiago_dual_gazebo package

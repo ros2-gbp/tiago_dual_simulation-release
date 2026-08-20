@@ -1,0 +1,520 @@
+ros-humble-tiago-dual-gazebo (4.13.0-1jammy) jammy; urgency=high
+
+  * start apps using localization manager
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Fri, 17 Jul 2026 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.12.0-1jammy) jammy; urgency=high
+
+  * stores_server log level
+  * separate advanced navigation
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 02 Jun 2026 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.11.0-1jammy) jammy; urgency=high
+
+  * Add support for new gazebo
+  * Contributors: thomaspeyrucain
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 13 Apr 2026 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.10.1-1jammy) jammy; urgency=high
+
+  * missing deps
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 15 Dec 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.10.0-1jammy) jammy; urgency=high
+
+  * Point Cloud filter pipeline
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 11 Dec 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.9.0-1jammy) jammy; urgency=high
+
+  * Revert "Merge branch 'fix/aca/missing-dep-public-sim' into 'humble-devel'"
+    This reverts merge request !57
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 28 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.8.1-1jammy) jammy; urgency=high
+
+  * added missing dep for public sim
+  * Contributors: andreacapodacqua
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 27 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.8.0-1jammy) jammy; urgency=high
+
+  * added gzclient and rviz args
+  * Contributors: martinaannicelli
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 09 Oct 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.7.1-1jammy) jammy; urgency=high
+
+  * Add pal_urdf_utils as env var path for gazebo
+  * Contributors: Aina
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 05 Jun 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.7.0-1jammy) jammy; urgency=high
+
+  * add use_sim_time to robot_info
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 07 May 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.6.0-1jammy) jammy; urgency=high
+
+  * rviz use_sim_time
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 06 May 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.5.2-1jammy) jammy; urgency=high
+
+  * fix deps
+  * Contributors: andreacapodacqua
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 05 May 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.5.1-1jammy) jammy; urgency=high
+
+  * rviz_config_file for public nav
+  * Contributors: salvatorepiccolo
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 09 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.5.0-1jammy) jammy; urgency=high
+
+  * store robot_info in tmp
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 03 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.4.0-1jammy) jammy; urgency=high
+
+  * Adopt pal configuration
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 03 Apr 2025 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.3.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'abr/feat/docking' into 'humble-devel'
+    use docking arg
+    See merge request robots/tiago_dual_simulation!48
+  * always start docking with adv navigation
+  * use docking arg
+  * Contributors: antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 02 Dec 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.2.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/fix/move-group-base' into 'humble-devel'
+    Pass missing base_type to move_group.launch.py
+    See merge request robots/tiago_dual_simulation!46
+  * Pass missing base_type to move_group.launch.py
+  * Contributors: David ter Kuile, davidterkuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 04 Nov 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.2.2-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/fix/fix-navigation-launch' into 'humble-devel'
+    Launch correct navigation file and add dependency
+    See merge request robots/tiago_dual_simulation!45
+  * Launch correct navigation file and add dependency
+  * Contributors: David ter Kuile, antoniobrandi
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 18 Sep 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.2.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'tpe/add_missing_dependency' into 'humble-devel'
+    Add missing dependecy
+    See merge request robots/tiago_dual_simulation!47
+  * Add missing dependecy
+  * Contributors: andreacapodacqua, thomas.peyrucain
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 12 Sep 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.2.0-1jammy) jammy; urgency=high
+
+  * Update parameters
+  * Add motor model parameter
+  * Contributors: Aina, thomas.peyrucain
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 26 Aug 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.5-1jammy) jammy; urgency=high
+
+  * add tuck arm arg and condition
+  * Contributors: sergiacosta
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 23 Jul 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.4-1jammy) jammy; urgency=high
+
+  * Add missing navigation related launch arguments
+  * Add slam argument for navigation
+  * Contributors: Noel Jimenez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 09 Jul 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.3-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/move-robot-args' into 'humble-devel'
+    Change import for launch args
+    See merge request robots/tiago_dual_simulation!42
+  * Change import for launch args
+  * Contributors: David ter Kuile, davidterkuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 26 Jun 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.2-1jammy) jammy; urgency=high
+
+  * Merge branch 'dtk/fix/add-public-sim-arg' into 'humble-devel'
+    Pass public sim arg to tiago_bringup launch
+    See merge request robots/tiago_dual_simulation!40
+  * Pass public sim arg to tiago_bringup launch
+  * Merge branch 'fix/srdf_files' into 'humble-devel'
+    add arguments for moveit
+    See merge request robots/tiago_dual_simulation!39
+  * add arguments for moveit
+  * Contributors: Aina Irisarri, David ter Kuile, davidterkuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 10 Jun 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'omm/feat/public_sim' into 'humble-devel'
+    Added is_public_sim check
+    See merge request robots/tiago_dual_simulation!38
+  * Added is_public_sim check
+  * Merge branch 'omm/fix/launch_standarization' into 'humble-devel'
+    Launch standarization
+    See merge request robots/tiago_dual_simulation!36
+  * Launch standarization
+  * Contributors: Oscar, davidterkuile, oscarmartinez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 09 May 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.1.0-1jammy) jammy; urgency=high
+
+  * Launch MoveIt 2 by default
+  * add pal robotiq description package
+  * Update package name of pal_hey5
+  * Contributors: Aina Irisarri, David ter Kuile, Noel Jimenez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 28 Feb 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.0.1-1jammy) jammy; urgency=high
+
+  * Add tiago_dual_moveit_config dependency
+  * Contributors: David ter Kuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 18 Jan 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (4.0.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'ros2-tiago-gazebo' into 'humble-devel'
+    Ros2 tiago gazebo
+    See merge request robots/tiago_dual_simulation!31
+  * Add maintainer
+  * Remove test dependency
+  * Update copyright
+  * Update authors
+  * CMake version to 3.8
+  * remove space for linter
+  * update to  new robot argument method
+  * Fix flake test
+  * fix name of move group launch file
+  * Update launch file layout and use new scoped_launch_file function
+  * Add website tags
+  * Setup declared args  properly
+  * Add tuck arm node
+  * Update propagation of gazebo env var in launchfile
+  * Remove default value to robot spawn.launch
+  * LAunch structure read but gazebo not yet workingg
+  * Add launch files
+  * Only package xml + cmakelist
+  * Contributors: David ter Kuile, davidterkuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 18 Jan 2024 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.9-1jammy) jammy; urgency=high
+
+  * Merge branch 'arm-type-param' into 'erbium-devel'
+    Add arm type to pal_robot_info
+    See merge request robots/tiago_dual_simulation!30
+  * Add arm type to pal_robot_info
+  * Merge branch 'davidterkuile-erbium-devel-patch-62924' into 'erbium-devel'
+    Remove extra gz paths that were move to pal_gazebo_worlds
+    See merge request robots/tiago_dual_simulation!28
+  * Remove extra gz paths that were move to pal_gazebo_worlds
+  * Contributors: David ter Kuile, Jordan Palacios, Sai Kishor Kothakota, davidterkuile
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Fri, 22 Sep 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.8-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 12 Jun 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.7-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 09 Mar 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.6-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 07 Mar 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.5-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 23 Feb 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.4-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 31 Jan 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.3-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 30 Jan 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.2-1jammy) jammy; urgency=high
+
+  * Merge branch 'robot-state-publisher' into 'erbium-devel'
+    update to robot_state_publisher
+    See merge request robots/tiago_dual_simulation!22
+  * update to robot_state_publisher
+  * Contributors: David ter Kuile, Jordan Palacios
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 23 Jan 2023 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'add_omni_tiago_dual' into 'erbium-devel'
+    Add base_type to the missing launch files
+    See merge request robots/tiago_dual_simulation!19
+  * =Add base_type to the missing launch files
+  * Contributors: saikishor, thomaspeyrucain
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 21 Jul 2022 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.3.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'no-end-effector-bugfix' into 'erbium-devel'
+    No end effector bugfix
+    See merge request robots/tiago_dual_simulation!18
+  * file_suffix consistency
+  * Merge branch 'no-end-effector-bugfix' of gitlab:robots/tiago_dual_simulation into no-end-effector-bugfix
+  * bools to true
+  * Apply 1 suggestion(s) to 1 file(s)
+  * merge
+  * update for tiago with an arm missing
+  * Changing default arg
+  * override pid gain and goal tolerance in case of no-ee
+  * generate new files
+  * override pid gain and goal tolerance in case of no-ee
+  * generate new files
+  * Contributors: David ter Kuile, saikishor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 03 May 2022 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.5-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 21 Mar 2022 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.4-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix-omni-base' into 'erbium-devel'
+    Fix omni base
+    See merge request robots/tiago_dual_simulation!16
+  * removing the need for duplicated pids config file
+  * Contributors: antoniobrandi, saikishor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 25 Nov 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.3-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 22 Nov 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.2-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Mon, 22 Nov 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.1-1jammy) jammy; urgency=high
+
+  * Merge branch 'pal_robot_info' into 'erbium-devel'
+    Setup the info of all the robot configuration in pal_robot_info
+    See merge request robots/tiago_dual_simulation!13
+  * Setup the info of all the robot configuration in pal_robot_info
+  * Contributors: Sai Kishor Kothakota, saikishor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 18 Nov 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.2.0-1jammy) jammy; urgency=high
+
+  * Merge branch 'omni_base_robot' into 'erbium-devel'
+    Creating omni base robot
+    See merge request robots/tiago_dual_simulation!12
+  * Creating omni base robot
+  * Contributors: antoniobrandi, saikishor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 03 Nov 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.1.0-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 06 May 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.19-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 13 Apr 2021 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.18-1jammy) jammy; urgency=high
+
+  * Merge branch 'rename_tf_prefix' into 'erbium-devel'
+    Rename tf_prefix param
+    See merge request robots/tiago_dual_simulation!8
+  * Rename tf_prefix param
+  * Contributors: davidfernandez, victor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 30 Jul 2020 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.17-1jammy) jammy; urgency=high
+
+  * Merge branch 'tiago_dual_screen' into 'erbium-devel'
+    Add has_screen to some launch files
+    See merge request robots/tiago_dual_simulation!9
+  * Add has_screen to some launch files
+  * Contributors: Victor Lopez, victor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 27 May 2020 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.16-1jammy) jammy; urgency=high
+
+  * Merge branch 'add-arm-sides' into 'erbium-devel'
+    Add arm_left and arm_right
+    See merge request robots/tiago_dual_simulation!7
+  * Add arm_left and arm_right
+  * Contributors: Victor Lopez, victor
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 08 Apr 2020 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.15-1jammy) jammy; urgency=high
+
+  * Merge branch 'refactor' into 'erbium-devel'
+    Refactor
+    See merge request robots/tiago_dual_simulation!6
+  * removed joystick from sim
+  * fixed twist mux usage
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 16 Oct 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.14-1jammy) jammy; urgency=high
+
+  * Merge branch 'remove-sonar-cloud' into 'erbium-devel'
+    remove sonar cloud
+    See merge request robots/tiago_dual_simulation!5
+  * removed dep
+  * remove sonar cloud
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 10 Oct 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.13-1jammy) jammy; urgency=high
+
+  * Remove speed limit
+  * Contributors: Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 02 Oct 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.12-1jammy) jammy; urgency=high
+
+  * Merge branch 'speed-limit' into 'erbium-devel'
+    removed speed limit dep as it is in bringup
+    See merge request robots/tiago_dual_simulation!4
+  * removed speed limit dep as it is in bringup
+  * Contributors: Procópio Stein, Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Fri, 27 Sep 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.11-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 26 Sep 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.10-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 26 Sep 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.9-1jammy) jammy; urgency=high
+
+  * Merge branch 'fix_nav_simulation' into 'erbium-devel'
+    Fixing name and launches files due to the refactoring of the tiago_2d_nav
+    See merge request robots/tiago_dual_simulation!3
+  * Fixing name and launches files due to the refactoring of the tiago_2d_nav
+  * Contributors: Victor Lopez, alessandrodifava
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Wed, 07 Aug 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.8-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 01 Aug 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Thu, 02 May 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.6-1jammy) jammy; urgency=high
+
+  * Fix wrong install rule
+  * Contributors: Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 16 Apr 2019 00:00:00 -0000
+
+ros-humble-tiago-dual-gazebo (2.0.5-1jammy) jammy; urgency=high
+
+  * Initial commit
+  * Contributors: Victor Lopez
+
+ -- "David ter Kuile" <david.terkuile@pal-robotics.com>  Tue, 16 Apr 2019 00:00:00 -0000
+
+
